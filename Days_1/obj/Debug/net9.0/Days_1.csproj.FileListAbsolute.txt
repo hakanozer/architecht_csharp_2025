@@ -12,3 +12,4 @@
 /Users/hakan/Documents/GitHub/architecht_csharp_2025/Days_1/obj/Debug/net9.0/Days_1.pdb
 /Users/hakan/Documents/GitHub/architecht_csharp_2025/Days_1/obj/Debug/net9.0/Days_1.genruntimeconfig.cache
 /Users/hakan/Documents/GitHub/architecht_csharp_2025/Days_1/obj/Debug/net9.0/ref/Days_1.dll
+/Users/hakan/Documents/GitHub/architecht_csharp_2025/Days_1/obj/Debug/net9.0/Days_1.sourcelink.json
