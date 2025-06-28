@@ -125,5 +125,47 @@ public class Program
         status = email == "ali@mail.com" && password == "1234";
         Console.WriteLine("email, password : " + status);
 
+        if (q < w)
+        {
+            // koşul sağlandığında
+            Console.WriteLine("q < w");
+        }
+        else
+        {
+            // koşul sağlanmadığında
+            Console.WriteLine("Koşul sağlanmadı!");
+        }
+
+        // swich - karar kontrol
+        Console.WriteLine("=================");
+        string page = "about";
+
+        switch (page)
+        {
+            case "home":
+                Console.WriteLine("Home Active");
+                break;
+            case "about":
+                Console.WriteLine("About Active");
+                break;
+            case "contact":
+                Console.WriteLine("Contact Active");
+                break;
+            case "profile":
+                Console.WriteLine("Profile Active");
+                break;
+            default:
+                Console.WriteLine("Default - Home Active");
+                break;
+        }
+
+        // fonksiyonlar
+        Console.WriteLine("=================");
+        // nesne üretim işlemi
+        Profile profile = new Profile();
+        // nesne içindeki özelliğe (.) ile erişim sağlanır.
+        Console.WriteLine(profile.a);
+
+
     }
 }
